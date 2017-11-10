@@ -9,7 +9,7 @@ const mongoose = require('mongoose');
 const {ensureAuthenticated} = require('../helpers/auth');
 
 //Load Idea Model
-require('../models/Idea');
+require('../Models/Idea');
 const Idea = mongoose.model('ideas');
 
 
